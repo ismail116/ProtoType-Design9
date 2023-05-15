@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 3000px;
+}
+.clear {
+    clear: both;
+}
+.container {
+    width: 75%;
+    margin: auto;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: rgba(0,0,0,.55);
+}
+header {
+    background-color: #0b3545;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+header .logo {
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    color: #fff;
+}
+header nav {
+    float: left;
+    width: 70%;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 35px;
+}
+header nav ul li a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* pesoudo Class */
+header nav ul li a:hover {
+    color: #ff9857;
+}
+
+.banner {
+    height: 680px;
+    background-image: url(../img/background.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+    top: 52.4px;
+    background-attachment: fixed;
+}
+.banner .welcome-msg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.banner .welcome-msg h1 {
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+.service {
+    padding-top: 90px;
+    margin-bottom: 90px;
+}
+.service h2 {
+    text-align: center;
+}
+.service .service-container {
+    padding-top: 50px;
+}
+.service .serivce-box {
+    width: 31.3333%;
+    float: left;
+    margin: 0 1%;
+    text-align: center;
+}
+.service .serivce-box h3 {
+    color: #083b50
+}
+.service .serivce-box * {
+    margin-bottom: 15px;
+}
+.service .serivce-box svg {
+    font-size: 42px;
+    color: #ff9857;
+}
+.benf {
+    padding: 100px 0;
+    background-image: url(../img/pexels-photo-1516704.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 0;
+}
+.benf .overlay {
+    background: rgba(255,152,87,.9);
+}
+.benf h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.benf .icon-benf {
+    background: #fff;
+    color:#ff9857;
+    font-size: 32px;
+    line-height: 82px;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: auto;
+    
+}
+.benf .benf-box {
+    float: left;
+    margin: 0 1%;
+    width: 31.3333%;
+    color: #fff !important;
+    text-align: center;
+}
+.benf .benf-box * {
+    margin-bottom: 10px;
+}
+.lastes {
+     padding-top: 50px ;
+     margin: 15px 0;
+    background-color: beige;
+    padding-bottom: 100px;
+}
+.lastes h2{
+    text-align: center;
+    padding-bottom: 50px;
+    color: cyan;
+}
+.lastes .lastes-project {
+    
+    margin-top: 25px;
+    
+}
+
+.lastes .lastes-project {
+     
+    display: inline-block;
+    margin: 0 1%;
+    width: 31.33333333%;
+    padding: 10px;
+    height: 300px;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.lastes .img-box.box1 {
+    background-image: url(../img/1.jpeg);
+   width: 300px;
+    height: 200px;
+}
+.lastes  .img-box.box2 {
+    background-image: url(../img/2.jpg);
+    width: 300px;
+    height: 200px;
+}
+.lastes  .img-box.box3 {
+    background-image: url(../img/3.jpg);
+    width: 300px;
+    height: 200px;
+}
+
+
+.customers{
+     margin: 15px 0;
+    padding-top: 15px;
+
+}
+.customers h2{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: darkcyan;
+}
+
+.customers .customers-boxs {
+   display: inline-block;
+   margin: 0 1%;
+    width: 22.5%;
+    padding: 5px;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+.customers .cust-img {
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+
+.customers .cust-img.box1 {
+    background-image: url(../img/4.jpg);
+    width: 220px;
+    height: 220px;
+}
+.customers .cust-img.box2 {
+    background-image: url(../img/5.jpg);
+     width: 220px;
+    height: 220px;
+}
+.customers .cust-img.box3 {
+    background-image: url(../img/6.jpg);
+     width: 220px;
+    height: 220px;
+    
+}
+.customers .cust-img.box4 {
+    background-image: url(../img/7.jpg);
+     width: 220px;
+    height: 220px;
+}
